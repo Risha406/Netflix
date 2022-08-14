@@ -1,0 +1,56 @@
+.signupScreen{
+    max-width: 300px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.signupScreen > form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signupScreen > form > input {
+    border: none;
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.signupScreen > form > button {
+    padding: 16px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1 rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signupScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.signupScreen > form > h4 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.signupScreen__gray {
+    color: gray;
+}
+
+.signupScreen__link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+/*for the signup to be in center {margin-left and rigt is used}
+{border-radius} will make the border round
+link:hover will activate the design only if we hover over it*/
